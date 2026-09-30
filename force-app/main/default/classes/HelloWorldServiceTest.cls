@@ -7,6 +7,6 @@ String result1 = HelloWorldService.getGreeting('Harish');
 System.assertEquals('Hello, Harish!', result1);
 // Test with blank name
 String result2 = HelloWorldService.getGreeting('');
-System.assertEquals('Hello, Guest!', result2);
+System.assertEquals('Hello, Guest!!', result2);
 }
 }
